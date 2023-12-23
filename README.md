@@ -1,9 +1,7 @@
 # campagne_prediction
 ## Description
-Ce repo contient les expérimentations faites sur le dataset de kickstarter dans le but 
-d'aider les promoteurs de projets à évaluer le potentiel de succès de leur projet de collecte
-de fonds par financement paticipatif.
-
+Ce repo contient les expérimentations faites sur le dataset  dans le but 
+d'
 ## Objectifs
 Les objectifs à couvrir sont :
 - [x] Faire une exploration avec un notebook
@@ -21,7 +19,7 @@ Pour mettre en place ce repo, j'ai fait usage du package `Kedro` qui génère de
 afin de ce concentrer sur l'exploration et l'expérimatation.
 Le répertoire est organisé comme suit :
 - *.dvc* : dossier généré par l'outil de version de données pour permettre de tracker les données et les modèles.\
-A été versionné dans ce cas les données du dossier `kickstarter/data`
+A été versionné dans ce cas les données du dossier `bixi/data`
 - *.github* : contient les différents workflows pour github action. Celui ajouté sert à vérifier la qualité du code avec pylint\flake8
 - *kickstarter* : dossier créé en utilisant la commande de départ de kedro `kedro new --starter=spaceflights` 
 Il contient des sous dossiers dont conf, data (qui a été tracké par dvc), notebooks (qui contient le notebook d'exploration), 
@@ -38,7 +36,7 @@ voir référence Dagshub pour voir les données trackées par DVC sur Dagshub
 Pour exécuter cette expérimentation:
 - cloner le répertoire en local\
 Ensuite 3 possibilités s'offrent :
-- Pour le notebook : ouvrir le notebook `kickstarter_experimentation.ipynb` situé dans kickstarter/notebooks à partir 
+- Pour le notebook : ouvrir le notebook `bixi_experimentation.ipynb` situé dans kickstarter/notebooks à partir 
 d'un éditeur comme jupyter notebook d'anaconda et exécuter les différentes cellules
 - Pour le code conçu dans une perspective de déploiement : il faut avoir docker d'installer sur son ordinateur et le lancer,
 ensuite ouvrir le répertoire actuel dans un éditeur comme vscode ou pycharm par exemple, construire son image et par la 
@@ -47,7 +45,7 @@ l'extension de docker) . Une fois ces étapes faites vous pouvez taper `kedro ru
 Pour ceux qui préfèrent les invites de commandes, voir référence docker. \
 PS : Il faudra peut être dezipper data.zip dans le dossier  kickstarter. Habituellement dans une équipe, elle serait accessible directement 
 par Dagshub (DVC, MLflow)
-- Créer un environnement virtuel venv, faire `cd kickstarter`, `pip install -r src/requirements.txt` pour installer
+- Créer un environnement virtuel venv, faire `cd bixi`, `pip install -r src/requirements.txt` pour installer
 les dépendances, et `kedro run` pour exécuter les pipelines (de données et de modélisation).
 ## TODO
 - Mettre en place un moyen de consommer le modèle ML (api ou plateforme web)
@@ -62,5 +60,5 @@ d'acceptation des utilisateurs, de sécurité et de confidentialité)
 - [Docker](https://docs.docker.com/get-started/02_our_app/)
 - [Dagshub](https://dagshub.com/PrimPom/campagne_prediction)
 - [Sckit-learn](https://scikit-learn.org/stable/)
-- [kickstarter](https://www.kickstarter.com/)
+- [Bixi Data]()
 - [Geeksforgeeks](https://www.geeksforgeeks.org/)
