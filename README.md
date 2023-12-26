@@ -4,14 +4,13 @@ Ce repo contient les expérimentations faites sur le dataset  dans le but
 d'
 ## Objectifs
 Les objectifs à couvrir sont :
-- [x] Faire une exploration avec un notebook
-- [x] Proposer une approche ML permettant de répondre aux besoins de la tâche
+- [ ] Faire une exploration avec un notebook
+- [ ] Proposer une approche ML permettant de répondre aux besoins de la tâche
 - [x] Mettre en place un projet capable d'être déployé et d'être automatiser au fil du temps 
 - [x] S'assurer que le projet est reproductible (Docker)
-- [x] Mise d'un processus de tracking des données, des modèles et des expérientations (Pas encore complet)
+- [ ] Mise d'un processus de tracking des données, des modèles et des expérientations (Pas encore complet)
 - [x] Fournir des commentaires dans le code
-- [x] Fournir un rapport répondant aux questions posées
-- [x] Ajouter les références utiliser et le lien vers le repo Dagshub
+- [ ] Ajouter les références utiliser et le lien vers le repo Dagshub
 
 
 ## Contenu du repo
