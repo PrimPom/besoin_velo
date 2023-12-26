@@ -35,7 +35,7 @@ voir référence Dagshub pour voir les données trackées par DVC sur Dagshub
 Pour exécuter cette expérimentation:
 - cloner le répertoire en local\
 Ensuite 3 possibilités s'offrent :
-- Pour le notebook : ouvrir le notebook `bixi_experimentation.ipynb` situé dans kickstarter/notebooks à partir 
+- Pour le notebook : ouvrir le notebook `bixi_experimentation.ipynb` situé dans bixi/notebooks à partir 
 d'un éditeur comme jupyter notebook d'anaconda et exécuter les différentes cellules
 - Pour le code conçu dans une perspective de déploiement : il faut avoir docker d'installer sur son ordinateur et le lancer,
 ensuite ouvrir le répertoire actuel dans un éditeur comme vscode ou pycharm par exemple, construire son image et par la 
