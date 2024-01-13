@@ -3,3 +3,6 @@ poetry.lock
 .idea
 **/__pycache__/**
 bixi/data
+bixi/notebooks/DonneesOuvertes_2023_10.csv
+bixi/notebooks/OD_2014-04.csv
+
